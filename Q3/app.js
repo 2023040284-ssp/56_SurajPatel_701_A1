@@ -7,10 +7,9 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-
-console.log("===================================");
+ 
 console.log(" College Admission Chatbot");
-console.log("===================================");
+console.log("------------------------------");
 console.log("Ask about:");
 console.log("- admission");
 console.log("- fees");
