@@ -6,7 +6,8 @@ const app = express();
     res.sendFile(__dirname + "/index.html");
 });
 
- app.get("/gethello", (req, res) => {
+// GET route
+app.get("/gethello", (req, res) => {
     res.send("Hello NodeJS !!");
 });
 

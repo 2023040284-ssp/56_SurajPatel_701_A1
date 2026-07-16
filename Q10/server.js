@@ -1,9 +1,12 @@
- 
+// Using Global Objects in Node.js
+
 console.log("=== Global Objects ===");
 
- console.log("Current File:", __filename);
+// __filename
+console.log("Current File:", __filename);
 
- console.log("Current Directory:", __dirname);
+// __dirname
+console.log("Current Directory:", __dirname);
 
  setTimeout(() => {
     console.log("This message is displayed after 2 seconds.");
