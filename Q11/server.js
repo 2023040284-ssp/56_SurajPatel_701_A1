@@ -1,3 +1,3 @@
 const greet = require("mypackage");
 
-console.log(greet("Suraj"));
+console.log(greet("Nisarg"));
